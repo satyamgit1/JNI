@@ -1,0 +1,318 @@
+body {
+    margin:0px;
+}
+
+.navbar-wrapper {
+    background-color: #f8f9fa;
+
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+ 
+}
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.navbar .logo {
+    width: 200px; /* Adjust size as needed */
+    size: 100px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.navbar li {
+    display: inline;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar button {
+    padding: 10px 20px;
+    border: none;
+    /* border-radius: 5px; */
+    cursor: pointer;
+    color: white;
+}
+.navbtn{
+    display: flex;
+    gap: 10px;
+    /* padding-right: 100px; */
+    /* padding-top:10px; */
+}
+
+.navbar .enquire {
+    background-color: #007bff;
+    
+}
+
+.navbar .call {
+    background-color: #28a745;
+    color: rgb(4, 0, 0);
+}
+
+.carousel {
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    height: 100vh;
+    
+}
+
+.carousel-content {
+    position:absolute;
+    top:200px;
+    right:30px;
+    padding-right: 150px;
+}
+
+.carousel img {
+    width: 100%; 
+    
+}
+
+.carousel-item {
+    flex: 0 0 auto;
+    opacity: 0;
+    transition: all 0.5s ease-out;
+
+    width: 100%;
+}
+
+.carousel-item.active {
+    opacity: 1;
+}
+
+.carousel-prev, .carousel-next {
+    position: absolute;
+    top: 50%;
+    font-size: 2em;
+    color: rgb(6, 6, 6);
+    text-decoration: none;
+}
+
+.carousel-prev {
+    left: 10px;
+}
+
+.carousel-next {
+    right: 10px;
+}
+
+
+
+.carousel-content h4 {
+    font-size: 1.5rem; /* Adjust the size as needed */
+    color: #555; /* Light black color */
+    padding-right: 100%
+}
+
+.carousel-content p {
+    color:#555;
+    font-weight: bold;
+
+
+}
+
+
+
+
+
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+
+
+
+
+.carousel1 button {
+    padding: 10px 20px;
+  
+    border: none;
+    /* border-radius: 5px; */
+    cursor: pointer;
+    color: white;
+    
+    
+}
+.carouselbtn1{
+    
+    display: flex;
+    gap: 10px;
+    /* padding-right: 100px; */
+    /* padding-top:10px; */
+}
+
+.carousel1 .enquire {
+    background-color: #007bff;
+    
+}
+
+.carousel1 .call {
+    background-color: #28a745;
+    color: rgb(4, 0, 0);
+}
+
+
+
+
+
+/* Additional styles for the feature section */
+.features-container {
+    position: relative;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+    top: -40px;
+    background: #eeeeee;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.feature {
+    flex: 1;
+    text-align: center;
+    border-left: 1px solid #c1bfbf;
+    padding: 10px 20px;
+    
+}
+.feature:first-child {
+    border-left: none;
+}
+.icon {
+    font-size: 40px;
+}
+.headline {
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+
+
+/* <!-- about us section --> */
+
+.container-aboutus {
+    width: 80%;
+    margin: auto;
+}
+
+.parent {
+    display: flex;
+    /* flex: 1; */
+    /* position: relative; */
+    /* top: 130px; */
+    /* left: 0; */
+  }
+
+  .child1, .child2 {
+    flex:1;
+    max-width: 50%;
+  }
+
+  .child2 {
+    position: relative;
+  }
+
+  .image1 {
+    width:100%;
+  }
+  .image2 {
+    
+    position: absolute;
+    z-index: 10;
+    top:-20px;
+    left:0px
+    /* top: 30px;
+    left: 30px; */
+    
+    
+
+  }
+  
+
+  .container-aboutus .child1 h1 span {
+    color: #4CAF50; /* Parrot Green color */
+}
+
+
+/* .services */
+
+.services {
+    text-align: center;
+    padding: 50px;
+    background-color: rgb(59, 53, 53)
+  }
+  
+  .services h2 {
+    color: white;
+    margin-bottom: 30px;
+  }
+  .services p {
+    color: white;
+    margin-bottom: 30px;
+  }
+  .services span {
+    color: rgb(21, 230, 21);
+    margin-bottom: 30px;
+  }
+  
+  .service-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  
+  .service-item {
+    width: 200px;
+    margin: 20px;
+    padding: 20px;
+    background: #ffffff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+  }
+  
+  .service-item:hover {
+    transform: translateY(-10px);
+  }
+  
+  .service-item img {
+    width: 30%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .service-item h3 {
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .service-item p {
+    color: #666;
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+
+
+
+
+
+
